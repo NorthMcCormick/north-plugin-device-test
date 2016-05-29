@@ -1,4 +1,4 @@
-@objc(ModusEchoSwift) class ModusEchoSwift : CDVPlugin {
+@objc(NorthPluginDeviceTest) class NorthPluginDeviceTest : CDVPlugin {
 	func setDevice(command: CDVInvokedUrlCommand) {
 		var pluginResult = CDVPluginResult(
 			status: CDVCommandStatus_ERROR
@@ -7,6 +7,9 @@
 		let deviceType = command.arguments[0] as? String ?? ""
 
 		if deviceType.characters.count > 0 {
+
+			debugPrint(deviceType);
+
 			/* UIAlertController is iOS 8 or newer only. */
 			/*let toastController: UIAlertController = 
 				UIAlertController(

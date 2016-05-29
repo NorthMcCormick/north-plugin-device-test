@@ -1,7 +1,7 @@
 var exec = require('cordova/exec');
 
 exports.coolMethod = function(arg0, success, error) {
-    exec(success, error, "cordovaPluginDeviceTest", "coolMethod", [arg0]);
+    exec(success, error, "northPluginDeviceTest", "coolMethod", [arg0]);
 };
 
 /*
@@ -9,5 +9,5 @@ exports.coolMethod = function(arg0, success, error) {
  */
 
 exports.setDevice = function(arg0, success, error) {
-  exec(success, error, "cordovaPluginDeviceTest", "setDevice", [arg0]);
+  exec(success, error, "northPluginDeviceTest", "setDevice", [arg0]);
 };

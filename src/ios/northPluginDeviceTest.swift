@@ -2,6 +2,7 @@
     var width: CGFloat = 414.0
     var height: CGFloat = 736.0
     var anchorOffset: CGFloat = 0.0
+    var anchorRight: Bool = false
     let animateDuration = 0.35
     
 	func setDevice(command: CDVInvokedUrlCommand) {
@@ -38,6 +39,10 @@
                 break;
             }
             
+            if (self.anchorRight) {
+                self.anchorOffset = UIScreen.mainScreen().bounds.width - self.width
+            }
+            
             UIView.animateWithDuration(animateDuration, delay: 0, options: .CurveEaseInOut, animations: {
                 var viewFrame = self.viewController.view.frame
                 viewFrame = CGRectMake(self.anchorOffset, UIScreen.mainScreen().bounds.height - self.height, self.width, self.height)
@@ -69,9 +74,11 @@
         switch side {
         case "left":
             self.anchorOffset = 0.0
+            self.anchorRight = false
             break;
         case "right":
             self.anchorOffset = UIScreen.mainScreen().bounds.width - self.width
+            self.anchorRight = true
             break;
         default:
             

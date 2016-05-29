@@ -22,7 +22,9 @@ Using Ionic Framework `ionic plugin add north-plugin-device-test`
 
 ## Use
 
-There are only two functions, `setDevice` and `anchor`
+There are only two functions, `setDevice` and `anchor`. These must be wrapped in the Cordova Ready or Ionic Platform Ready events to function. 
+
+`$ionicPlatform.ready(function() { /* Test device calls go here */ }` 
 
 ### setDevice
 

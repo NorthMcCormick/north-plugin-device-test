@@ -8,8 +8,11 @@ Gain priceless insights into your customers with smaller devices and how they us
 
 As a product designer, user experience is really what matters most. Often engineers over-see things like reachability, font sizes in smaller screen sizes, and white space in larger screens. This plugin allows you to programatically set the web view in Cordova to a specific device size and anchor it to the left or right of your test device.
 
+The goal of this plugin is to mimic *real* life sizes, not programatic sizing. Resolutions may be smaller than real device pixels, but are physically the same size.
+
 ## Important Notes
 This is iOS only, I *may* attempt an Android version but haven't decided yet.
+
 
 It should go without saying, but you need a device larger than the device being set otherwise you won't see the whole thing and the offsets will get crazy. 
 
@@ -57,4 +60,3 @@ If you want to test your app on iPhone 4S with a right handed user, you would ca
 
 ## Things maybe coming
 * Some kind of event callback in case you need to update your UI in multiple areas of the app
-* iPad support, the resolutions don't match exactly, so working on that so you can test all sizes including iPad mini.

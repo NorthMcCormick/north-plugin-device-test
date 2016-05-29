@@ -9,6 +9,10 @@ Gain priceless insights into your customers with smaller devices and how they us
 As a product designer, user experience is really what matters most. Often engineers over-see things like reachability, font sizes in smaller screen sizes, and white space in larger screens. This plugin allows you to programatically set the web view in Cordova to a specific device size and anchor it to the left or right of your test device.
 
 ## Important Notes
+This is iOS only, I *may* attempt an Android version but haven't decided yet.
+
+It should go without saying, but you need a device larger than the device being set otherwise you won't see the whole thing and the offsets will get crazy. 
+
 This plugin is written in Swift, this means you'll need the bridging header. If you do not have this already, or don't know how to make one go here: https://github.com/akofman/cordova-plugin-add-swift-support
 
 I will not cover *any* support relating to the header.

@@ -2,7 +2,7 @@
 
 Gain priceless insights into your customers with smaller devices and how they use your app. 
 
-![Screencapture GIF](https://www.dropbox.com/s/g4k1ah69v9psyl5/north-plugin-device-test.gif?dl=0)
+![Screencapture GIF](https://dl.dropboxusercontent.com/content_link/E9LzLEfs9ifsPT1pFo2lAOMV53LrHBKHii0h5yttPPRil0TJMSvJ2zxkv9kjzabi/file?dl=1)
 
 ## Why?
 

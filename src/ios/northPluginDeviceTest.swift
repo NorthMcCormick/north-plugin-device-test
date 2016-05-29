@@ -1,4 +1,4 @@
-@objc(NorthPluginDeviceTest) class NorthPluginDeviceTest : CDVPlugin {
+@objc(northPluginDeviceTest) class northPluginDeviceTest : CDVPlugin {
 	func setDevice(command: CDVInvokedUrlCommand) {
 		var pluginResult = CDVPluginResult(
 			status: CDVCommandStatus_ERROR

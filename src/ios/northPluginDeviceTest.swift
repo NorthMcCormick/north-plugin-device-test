@@ -18,8 +18,8 @@
             
             switch deviceType {
                 case "iPhone4s":
-                    self.self.width = 320.0
-                    height = 480.0
+                    self.width = 320.0
+                    self.height = 480.0
                 break;
                 case "iPhoneSE":
                     self.width = 320.0
@@ -30,12 +30,22 @@
                     self.height = 667.0
                 break;
                 case "iPhone6Plus":
-                    self.width = 414.0
-                    self.height = 736.0
+                    if(UIScreen.mainScreen().scale < 3) {
+                        self.width = 1080 / 3
+                        self.height = 1920 / 3
+                    }else{
+                        self.width = 414
+                        self.height = 736
+                    }
                 break;
                 default:
-                    self.width = 414.0
-                    self.height = 736.0
+                    if(UIScreen.mainScreen().scale < 3) {
+                        self.width = 1080 / 3
+                        self.height = 1920 / 3
+                    }else{
+                        self.width = 414
+                        self.height = 736
+                    }
                 break;
             }
             

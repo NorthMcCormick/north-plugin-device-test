@@ -9,6 +9,38 @@
 		if deviceType.characters.count > 0 {
 
 			debugPrint(deviceType);
+            
+            switch deviceType {
+                case "iPhone4s":
+                    let width: CGFloat = 320.0
+                    let height: CGFloat = 480.0
+                    
+                    self.viewController.view.frame = CGRectMake(UIScreen.mainScreen().bounds.width-width, UIScreen.mainScreen().bounds.height-height, width, height);
+                break;
+                case "iPhoneSE":
+                    
+                    let width: CGFloat = 320.0
+                    let height: CGFloat = 568.0
+                    
+                    self.viewController.view.frame = CGRectMake(UIScreen.mainScreen().bounds.width-width, UIScreen.mainScreen().bounds.height-height, width, height);
+                break;
+                case "iPhone6":
+                    
+                    let width: CGFloat = 375.0
+                    let height: CGFloat = 667.0
+                    
+                    self.viewController.view.frame = CGRectMake(UIScreen.mainScreen().bounds.width-width, UIScreen.mainScreen().bounds.height-height, width, height);
+                break;
+                case "iPhone6Plus":
+                    let width: CGFloat = 414.0
+                    let height: CGFloat = 736.0
+                    
+                    self.viewController.view.frame = CGRectMake(UIScreen.mainScreen().bounds.width-width, UIScreen.mainScreen().bounds.height-height, width, height);
+                break;
+                default:
+                
+                break;
+            }
 
 			/* UIAlertController is iOS 8 or newer only. */
 			/*let toastController: UIAlertController = 

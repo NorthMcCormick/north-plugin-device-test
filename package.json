@@ -1,0 +1,25 @@
+{
+  "name": "north-plugin-device-test",
+  "version": "1.0.0",
+  "description": "Cordova Device Plugin",
+  "cordova": {
+    "id": "cordova-plugin-device",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NorthMcCormick/north-plugin-device-test"
+  },
+  "keywords": [
+    "cordova",
+    "device",
+    "ecosystem:cordova",
+    "cordova-ios",
+    "emulate",
+    "screen size"
+  ],
+  "author": "North McCormick",
+  "license": "Apache-2.0"
+}

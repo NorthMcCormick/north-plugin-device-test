@@ -2,7 +2,7 @@
 
 Gain priceless insights into your customers with smaller devices and how they use your app. 
 
-![Screencapture GIF](http://i.giphy.com/l41YoTcqOaWsgknpS.gif)
+![Screencapture GIF](http://i.giphy.com/l41YoTcqOaWsgknpS.gif =250x)
 
 ## Why?
 

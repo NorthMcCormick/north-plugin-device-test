@@ -57,4 +57,4 @@ If you want to test your app on iPhone 4S with a right handed user, you would ca
 
 ## Things maybe coming
 * Some kind of event callback in case you need to update your UI in multiple areas of the app
-
+* iPad support, the resolutions don't match exactly, so working on that so you can test all sizes including iPad mini.
